@@ -1,0 +1,263 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    horiz-align: center;
+    background: #fffaef;
+    font-family: Arial, serif;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+#links{
+    margin-top: 20px;
+    horiz-align: center;
+}
+
+
+#table{
+    table-layout: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+#employees{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    height: auto;
+    margin: 5px;
+}
+
+#employee-list{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#employees-header{
+    background: lightskyblue;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#employee-list-header{
+    background: lightskyblue;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+#employees-content{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+#employee-list-content{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+#task-list-content{
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+
+
+.employee-item{
+    width: auto;
+    height: auto;
+    min-height: 82px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid lightskyblue;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.task-list-item{
+    width: auto;
+    height: auto;
+    min-height: 82px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid lightskyblue;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.employee-item img{
+    float: left;
+    width: 70px;
+    height: auto;
+    margin-right: 0.4rem;
+    border-radius: 0.2rem;
+}
+
+.flex-child-tasks{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    height: auto;
+    margin: 5px;
+}
+
+#tasks-header{
+    background: lightskyblue;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#tasks-content{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+.tasks-item{
+    width: auto;
+    height: auto;
+    min-height: 82px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid lightskyblue;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.edit{
+    float: right;
+    margin-left: 20px;
+    color: #00cdd2
+}
+
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.counter{
+    float: right;
+    margin-left: 20px;
+    color: #00cdd2
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    border-top: solid black 1px;
+}
+
+.employee-form-table{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    height: auto;
+    margin: 5px;
+    table-layout: auto;
+}
+
+.add-task-table{
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    height: auto;
+    margin: 5px;
+    table-layout: auto;
+}
+
+.employee-form-header{
+    background: lightskyblue;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.add-task-header{
+    background: lightskyblue;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#task-list-header{
+    background: lightskyblue;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.employee-form-content{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding-left: 100px;
+}
+
+.add-task-content{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding-left: 100px;
+}
+
+.label{
+
+}
+
+.input{
+
+}
+
+.edit-link{
+    float: right;
+}
+
+
